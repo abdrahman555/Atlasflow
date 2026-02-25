@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Équipe - AtlasFlow Pro</title>
+
+    <!-- CSS & fonts -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet-routing-machine@3.2.12/dist/leaflet-routing-machine.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body class="team-page">
+    <!-- simple header with back button -->
+    <header style="display:flex; align-items:center; justify-content:flex-start; padding:20px; background:rgba(15,23,42,0.9);">
+        <a href="index.html" style="color:#3b82f6; font-weight:600; text-decoration:none; font-size:1rem;">
+            <i class="fas fa-arrow-left"></i> Retour
+        </a>
+    </header>
+
+    <!-- hero area for team page -->
+    <div class="team-page-hero">
+        <h1>Notre équipe</h1>
+        <p>Les esprits qui pilotent AtlasFlow Pro</p>
+    </div>
+
+    <!-- Team section shown immediately -->
+    <section class="team-section visible" id="teamSection">
+        <h2 class="team-header">Équipe dirigeante</h2>
+        <div class="team-grid">
+            <!-- members same as index.html -->
+            <div class="team-card">
+                <div class="profile-img"><img src="images/abderrahman.jpg" alt="ELGHAZOUI ABDERRAHMAN" onerror="this.style.display='none'; this.parentElement.classList.add('fallback');"></div>
+                <div class="member-info">
+                    <h3>ELGHAZOUI ABDERRAHMAN</h3>
+                    <p class="member-role">Founder &amp; System Architect</p>
+                    <p class="member-desc">Architecte système visionnaire et leader technique. Expert en développement full‑stack et data science pour solutions IA.</p>
+                    <div class="member-links">
+                        <a href="#" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="mailto:abderrahman@example.com" title="Email"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="team-card">
+                <div class="profile-img"><img src="images/zainab.jpg" alt="LAAZIRI ZAINAB" onerror="this.style.display='none'; this.parentElement.classList.add('fallback');"></div>
+                <div class="member-info">
+                    <h3>LAAZIRI ZAINAB</h3>
+                    <p class="member-role">COO &amp; Strategy Lead</p>
+                    <p class="member-desc">Gestionnaire de projet aguerrie, oriente la croissance opérationnelle et la stratégie de l’entreprise.</p>
+                    <div class="member-links">
+                        <a href="#" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="mailto:zainab@example.com" title="Email"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="team-card">
+                <div class="profile-img"><img src="images/mohamed.jpg" alt="SELLAMI MOHAMED" onerror="this.style.display='none'; this.parentElement.classList.add('fallback');"></div>
+                <div class="member-info">
+                    <h3>SELLAMI MOHAMED</h3>
+                    <p class="member-role">Backend Developer &amp; Data Analyst</p>
+                    <p class="member-desc">Expert back‑end orienté données, concepteur d’API scalables et analyste de performance.</p>
+                    <div class="member-links">
+                        <a href="#" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="mailto:mohamed@example.com" title="Email"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="team-card">
+                <div class="profile-img"><img src="images/ibtissam.jpg" alt="IBTISSAM" onerror="this.style.display='none'; this.parentElement.classList.add('fallback');"></div>
+                <div class="member-info">
+                    <h3>IBTISSAM</h3>
+                    <p class="member-role">UI/UX Designer &amp; Frontend Developer</p>
+                    <p class="member-desc">Créatrice d’interfaces élégantes et intuitives, assure une expérience utilisateur premium sur toutes plateformes.</p>
+                    <div class="member-links">
+                        <a href="#" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="mailto:ibtissam@example.com" title="Email"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="team-card">
+                <div class="profile-img"><img src="images/bassma.jpg" alt="BASSMA" onerror="this.style.display='none'; this.parentElement.classList.add('fallback');"></div>
+                <div class="member-info">
+                    <h3>BASSMA</h3>
+                    <p class="member-role">Marketing Strategist &amp; Communication Lead</p>
+                    <p class="member-desc">Stratège marketing affûtée, gère la marque et les communications pour un impact maximal.</p>
+                    <div class="member-links">
+                        <a href="#" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="mailto:bassma@example.com" title="Email"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
